@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSE 110 Meeting Minutes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjk5JwB6dxk5nR5bj-U09TpqEFKRG8wgYHpItHTlqhKA&s" type="image/png">
+  </head> 
+  <body>
+    <header>
+        <h1>CSE 110 Meeting Minutes</h1>
+        <h2>Week 2 General Check-Ins</h2>
+        <h3>Date: 4/13/2024</h3>
+        <nav>
+            <ul>
+                <li><a href="#attendance">Attendance</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#recap">Recap</a></li>
+                <li><a href="#updates">Updates</a></li>
+                <li><a href="#additionals">Comments/Questions</a></li>
+                <li><a href="#pictures">Diagrams</a></li>
+                <li><a href="#media">Media</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h3 id = attendance>Attendance</h3>
+            <div>
+                <ol>
+                    <li><input type="checkbox">Justin</li>
+                    <li><input type="checkbox">Nathan</li>
+                    <li><input type="checkbox">Andrew</li>
+                </ol>
+            </div>
+            <span>
+                Notes: 
+            </span>
+            <span>
+                <input type="text">
+            </span>
+        </section>
+
+        <section>
+            <h3 id = agenda>Agenda</h3>
+            <ol>
+                <li><input type="checkbox">Bonding Event</li>
+                <li><input type="checkbox">Set up <strong>GitHub Repo</strong></li>
+                <li><input type="checkbox">Discuss about <em>future meetings</em>: <i>time, location</i></li>
+                <li><input type="checkbox">Come up with <b>Team Name</b></li>
+            </ol>
+        </section>
+
+        <section>
+            <h3 id = recap>Recap</h3>
+            <p>Last week we were assigned teams, our team will have 10 members, and <b>Nathan</b> will be our <i>team lead</i>.</p>
+        </section>
+
+        <section>
+            <h3 id = updates>Updates</h3>
+            <ul>
+                <li><b>Workflow of Project</b> showned in the <i>Diagram</i> section.</li>
+                <li><b>GitHub Repo</b> set up done.</li>
+                <li><b>Future Seating</b> in Lecture in the back right</li>
+                <li><b>Future Meeting Time</b> 12:30 - 1:30 PM</li>
+                <li><b>Meeting Location</b> Geisel West 1st Floor</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3 id = additionals>Comments/Questions</h3>
+            <p>We went over our past experiences with projects/ <strong>internships</strong> of individual members and how each might contribute to the project.</p>
+        </section>
+
+        <section>
+            <h3 id = pictures>Diagrams</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsxTwnnpCtSrRc_yRROVXrcZD94C848D6dymAHNuyrNQ&s" alt="diagram"/>
+            <details>
+                <summary>Click to show more</summary>
+                <p>This is our general workflow for our project.</p>
+            </details>
+        </section>
+
+        <section>
+            <h3 id = media>Media</h3>
+            <audio controls>
+                <source src="audio-file.mp3" type="audio/mpeg">
+                Your browser does not support the audio.
+            </audio>
+            <video controls>
+                <source src="video-file.mp4" type="video/mp4">
+                Your browser does not support the video.
+            </video>
+            
+        </section>
+    </main>
+
+    <hr />
+
+    <footer>
+        Team 25
+        <br>
+        <form>
+            <fieldset>
+                <legend>Contact Us</legend>
+                
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br>
+                
+                <label for="pronouns">Pronoun:</label>
+                <select id="pronouns" name="pronouns">
+                    <option value="" disabled selected></option>
+                    <option>He/Him</option>
+                    <option>She/Her</option>
+                    <option>They/Them</option>
+                    <option>Other</option>
+                </select>
+
+                <br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br>
+                
+                <hr>
+
+                <label for="category">Category:</label>
+                <input list="categories" id="category" name="category">
+
+                <datalist id="categories">
+                    <option value="Questions">
+                    <option value="Suggetions">
+                    <option value="Other">
+                </datalist>
+
+                <br>
+                
+                <label for="name">Subject:</label>
+                <input type="text" id="name" name="name"><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea>
+            </fieldset>
+            <button type="submit" onclick="alert('Submitted')">Submit</button>
+        </form>
+        
+    </footer>
+  </body>
+</html>
