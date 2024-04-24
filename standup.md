@@ -1,7 +1,8 @@
 # Daily Stand-ups
 
-**Team Name**:
-**Week**:
+**Team Name:**
+
+**Week:**
 
 ## Friday
 | Name | Priorities | Progress | Problems |
