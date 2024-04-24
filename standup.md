@@ -1,8 +1,8 @@
 # Daily Stand-ups
 
-| Team Name |  |
+| Team Name |      |
 | --- | --- |
-| Table of Contents |  |
+| Table of Contents |      |
 
 ## Friday
 | Name | Priorities | Progress | Problems |
