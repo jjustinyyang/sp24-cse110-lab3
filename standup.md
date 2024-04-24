@@ -1,7 +1,7 @@
 # Daily Stand-ups
 
-| --- | --- |
 | Team Name |  |
+| --- | --- |
 | Supervisor |  |
 | Table of Contents |  |
 
