@@ -2,7 +2,6 @@
 
 | Team Name |  |
 | --- | --- |
-| Supervisor |  |
 | Table of Contents |  |
 
 ## Friday
