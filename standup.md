@@ -1,8 +1,9 @@
 # Daily Stand-ups
 
-| Team Name | --- |
-| Supervisor | --- |
-| Table of Contents | --- |
+| --- | --- |
+| Team Name |  |
+| Supervisor |  |
+| Table of Contents |  |
 
 ## Friday
 | Name | Priorities | Progress | Problems |
