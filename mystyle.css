@@ -6,3 +6,112 @@ h2 {
     color: navy;
 }
 
+:root {
+    --gold: gold;
+}
+
+* {
+    /*Universally sets the font*/
+    font-family: "Jersey 10", sans-serif;
+}
+
+ul,
+ol {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 12px;
+    grid-area: auto;
+}
+
+button:hover {
+    margin-left: 15cm;
+}
+
+button:active {
+    background: aquamarine;
+}
+
+h3+img {
+    padding-top: 2cm;
+}
+
+section p {
+    color: gray;
+}
+
+details>summary {
+    color: firebrick;
+}
+
+audio~video {
+    margin: 5mm;
+}
+
+.date {
+    color: cadetblue;
+}
+
+h3.date {
+    margin: 10mm;
+}
+
+section:has(audio) {
+    align-items: center;
+}
+
+header {
+    border-width: 2mm;
+
+    & nav {
+        border-width: 3mm;
+    }
+}
+
+video {
+    /* size change with screen length*/
+    width: 30vmax;
+}
+
+div {
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    margin-left: 2cm;
+    margin-right: 1cm;
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+input {
+    height: fit-content;
+    display: inline-block;
+}
+
+input[type="text"] {
+    border-width: 2mm;
+}
+
+span {
+    margin: 10mm;
+    display: block;
+}
+
+section {
+    position: static;
+    border-style: dashed;
+    border-color: forestgreen;
+    border-width: 1mm;
+    border-radius: 5mm;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: linen;
+}
+
+h1 {
+    position: fixed;
+    margin: auto;
+    color: var(--gold, blue);
+    font-size: 3em;
+}
