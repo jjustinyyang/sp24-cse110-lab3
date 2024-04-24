@@ -1,0 +1,1 @@
+ssentially, standups are daily meetings where typically, each member gives their status updates so that the team can keep track of sprint progress and resolve blockers. Standup notes are just notes to facilitate this meeting.
