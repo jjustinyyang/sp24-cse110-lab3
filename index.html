@@ -6,75 +6,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
 
     <style>
-        :root {
-            --gold: gold;
-        }
-
-        * {
-            /*Universally sets the font*/
-            font-family: "Jersey 10", sans-serif;
-        }
-
-        ul {
-            display: grid;
-            grid-template-columns: auto 1fr;
-            grid-gap: 12px;
-            grid-area: auto;
-        }
-
-        button:hover {
-            margin-left: 15cm;
-        }
-
-        button:active {
-            background: aquamarine;
-        }
-
-        video {
-            /*the size will change with screen length*/
-            width: 30vmax;
-        }
-
-        div {
-            margin-top: 0.5cm;
-            margin-bottom: 0.5cm;
-            margin-left: 2cm;
-            margin-right: 1cm;
-            display: flex;
-            flex-flow: row-reverse;
-        }
-
-        input {
-            height: fit-content;
-            display: inline-block;
-        }
-
-        span {
-            margin: 10mm;
-            display: block;
-        }
-
-        section {
-            position: static;
-            border-style: dashed;
-            border-color: forestgreen;
-            border-width: 1mm;
-            border-radius: 5mm;
-            display: flex;
-            flex-direction: column;
-        }
-
-        body {
-            background-color: linen;
-        }
-
-        h1 {
-            position: fixed;
-            margin: auto;
-            color: var(--gold, blue);
-            font-size: 3em;
-        }
-
         #attendance {
             text-decoration: underline;
             margin-left: 20px;
@@ -117,7 +48,7 @@
     <header>
         <h1>CSE 110 Meeting Minutes</h1>
         <h2>Week 2 General Check-Ins</h2>
-        <h3>Date: 4/13/2024</h3>
+        <h3 class=date>Date: 4/13/2024</h3>
         <nav>
             <ul>
                 <li><a href="#attendance">Attendance</a></li>
