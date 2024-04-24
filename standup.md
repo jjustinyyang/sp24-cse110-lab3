@@ -1,7 +1,7 @@
 # Daily Stand-ups
 
 | Team Name |      |
-| --- | --- |
+| --- | ------ |
 | Table of Contents |      |
 
 ## Friday
